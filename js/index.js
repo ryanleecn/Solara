@@ -464,7 +464,7 @@ const savedCurrentPlaylist = (() => {
 
 // API配置 - 修复API地址和请求方式
 const API = {
-    baseUrl: "https://api.saben.dpdns.org",
+    baseUrl: "https://api.music.gdstudio.xyz",
 
     generateSignature: () => {
         return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
